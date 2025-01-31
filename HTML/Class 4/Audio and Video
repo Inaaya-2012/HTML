@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> audio and video</title>
+    </head>
+    <body>
+        <h1> Audio and Video</h1>
+        <audio controls>
+            <source src = "short-10-228139.mp3" type = "audio/mpeg">
+            browser doesn't support
+        </audio>
+        <video controls> width = 300 height = 300>
+            <source src = "3191251-uhd_4096_2160_25fps (1)" type = "video/mpeg">
+            browser doesn't support
+        </video>
+    </body>
+    </html>
