@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <title>Group fields</title>
+    <body>
+        <fieldset>
+            <legend>Mark form</legend>
+            <form name = "form1" action = ""
+            oninput = "avg.value = (parseInt(x1.value)+parseInt(x2.value)+parseInt(x3.value))/3"
+        
+        <form name = "form1">
+            <label>Name</label>
+            <input type = text name = "name"><br><br>
+            <label>Enter marks</label><br><br>
+            <select name = "sub1">
+                <option value = "Math">Maths</option>
+                <option value = "English">English</option>
+                <option value = "Science">Science</option>
+                </select>
+                <input type = number name = "x1"><br><br>
+                <select name = "sub2">
+                    <option value = "Math">Maths</option>
+                    <option value = "English">English</option>
+                    <option value = "Science">Science</option>
+                    </select>
+                    <input type = number name = "x2"><br><br>
+                <select name = "sub3">
+                    <option value = "Math">Maths</option>
+                    <option value = "English">English</option>
+                    <option value = "Science">Science</option>
+                    </select>
+                    <input type = number name = "x3"><br><br>
+                    average
+                    <output name = "avg"></output>
+                    
+        
+        
+
+
+
+            
+            
+
+
+                </fieldset>
+        </form>
+    </body>
+    </html>
+            
