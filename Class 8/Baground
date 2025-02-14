@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Baground</title>
+     <style>
+        body{
+            background-color: coral;
+            background-image: url("images-removebg-preview (2).png");
+        
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+        
+        }
+
+        </style>
+    </head>
+    <body>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </body>

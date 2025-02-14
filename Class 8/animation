@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Animation</title>
+        <style>
+            @keyframes example{
+                0%{background-color: aqua;}
+                25%{background-color: rgb(0, 255, 26);}
+                50%{background-color: rgb(255, 149, 0);}
+                100%{background-color: rgb(255, 0, 200);}
+            }
+            #one{
+                width:200px;
+                height:200px;
+                background-color: pink;
+                animation-name: example;
+                animation-duration: 8s;
+            }
+            </style>
+            </head>
+            <body>
+                <div id = "one">
+                    animation

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gradient</title>
+        <style>
+            #one
+            {
+                border:1px solid pink;
+                width:300px;
+                height: 200px;
+                background:  linear-gradient(90deg, rgba(11,156,229,0) 23%, rgba(65,219,17,1) 57%, rgba(228,255,0,1) 100%);
+            }
+            #two
+            
+            {
+                border:1px solid blue;
+                width:300px;
+                height: 200px;
+                background: radial-gradient(circle, rgba(229,11,56,0) 23%, rgba(238,184,6,1) 57%, rgba(0,250,255,1) 100%);
+            }
+        </style>
+        </head>
+        <body>
+            <div id = "one">
+                Linear grdient
+            </div>
+            <div id = "two">
+                Radial grdient
+            </div>
+        </body>
+
+
+
+
+
+
+
+    </head>
