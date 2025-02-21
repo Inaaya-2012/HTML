@@ -1,0 +1,51 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <title>
+            Advance selectors
+        </title>
+        <style>
+            input[type=text]{
+                border:3px dotted purple
+            }
+            ul>li{ 
+                color:darkorange
+            }
+            h3+p{
+                color: deepskyblue;
+                font-size: 20px;
+            }
+            a:hover{
+                color:lightseagreen;
+                font-size: 20px;
+            }
+            ul>li:nth-child(2){
+                background-color: black;
+            }
+            ul>li::before{
+                content:"🚀"
+            }
+            ul>li::after{
+                content:"🚀"
+            }
+            p::first-letter{
+                font-size: 200%;
+                color:purple
+            }
+            </style>
+            </head>
+            <body>
+                Name <input type = text>
+                <ul>
+                    Space Exploration
+                    <li>moon mission</li>
+                    <li>black hole</li>
+                    <li>satellite</li>
+                    <li>mars rovers</li>
+                    </ul>
+                    <h3>Space</h3>
+                    <p>Space is a three-dimensional expanse that contains objects and events, and has relative position and direction.</p>
+                    <p>A star is a luminous spheroid of plasma held together by self-gravity. The nearest star to Earth is the Sun. Many other stars are visible to the naked eye at night; their immense distances from Earth make them appear as fixed points of light.</p>
+                    <a href = "#">Space</a>
+                    </body>
+                    </html>
