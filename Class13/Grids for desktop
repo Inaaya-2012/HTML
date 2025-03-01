@@ -1,0 +1,44 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>bootstrap container</title>
+            <meta charset="utf-8">
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+<style>
+    .col1{
+        border:1px solid black;
+        background-color: lightpink;
+    }
+    .col2{
+        border:1px solid black;
+        background-color:lightskyblue
+    }
+    .col3{
+        border:1px solid black;
+        background-color:mediumorchid
+    }
+    </style>
+    </head>
+    <body>
+        <h1>Fixed width container</h1>
+        <div class = "container">
+            <div class = "row">
+                <div class = "col1 col-lg-4 ">column1</div>
+                <div class = "col2 col-lg-8">column1</div>
+            </div>
+        </div>
+    </body>
+    </html>
