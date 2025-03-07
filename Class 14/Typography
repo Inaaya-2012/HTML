@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Typography
+    </title>
+    <meta charset="utf-8">
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+</head>
+<body>
+    <div class = "container">
+        <h1 class = "display-1">Bootstrap</h1>
+        <h1 class = "display-2">Bootstrap</h1>
+        <h1 class = "display-3">Bootstrap</h1>
+        <h1 class = "display-4">Bootstrap</h1>
+        
+        <h1 class = "display-4">Bootstrap is used to build <small>responsive websites</small><h1>
+            <dl>
+                <dt>Coffee </dt>
+                <dd>-hot beverage</dd>
+            </dl>
+        </div>
+</body>
+</html>
