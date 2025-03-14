@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Jumbotron
+    </title>
+    <meta charset="utf-8">
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+</head>
+<body>
+    <div class = "container">
+        <div class = "jumbotron">
+            <h1 class = "display-1 text-info">Jumbotron</h1>
+            <p>Jumbotron is used to give some special attention for the given class.</p>
+
+        </div>
+    </div>
+    <div class = "container">
+        <button class = "btn btn-primary">primary</button>
+        <button class = "btn btn-secondary">secondary</button>
+        <button class = "btn btn-danger">danger</button>
+        <button class = "btn btn-info">info</button>
+        <button class = "btn btn-warning">warning</button>
+        <button class = "btn btn-dark">dark</button>
+    </div>
+    <br>
+    <div class = "container">
+        <button class = "btn btn-lg btn-primary">primary</button>
+        <button class = "btn btn-lg btn-secondary">secondary</button>
+        <button class = "btn btn-lg btn-danger">danger</button>
+        <button class = "btn btn-lg btn-info">info</button>
+        <button class = "btn btn-lg btn-warning">warning</button>
+        <button class = "btn btn-lg btn-dark">dark</button>
+    </div>
+    <br>
+    <div class = "container">
+        <button class = "btn btn-sm btn-primary">primary</button>
+        <button class = "btn btn-sm btn-secondary">secondary</button>
+        <button class = "btn btn-sm btn-danger">danger</button>
+        <button class = "btn btn-sm btn-info">info</button>
+        <button class = "btn btn-sm btn-warning">warning</button>
+        <button class = "btn btn-sm btn-dark">dark</button>
+    </div>
+
+</body>
