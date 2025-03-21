@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hyper links</title>
+  </head>
+  <body>
+    <table border = "3" width = 100% height = "300px" bgcolor ="teal">
+      <tr bgcolor = "beige"><th>Name</th><th>Phone no</th><th>Marks</th></tr>
+      <tr align = "center"><td> Inaaya</td><td>9857853621</td><td>98</td></tr>
+       <tr align = "center"><td> Pranhi</td><td>6759098754</td><td>85</td></tr>
+    </table>
+  </body>
+</html>
+<html>
+  <head>
+    <title>Hyper links</title>
+  </head>
+  <body>
+    <ul type = "circle">
+      <li>UK</li>
+       <li>India</li>
+      <li>USA</li>
+    </ul>
+    <ol type = "a">
+      <li>New Delhi</li>
+      <li>Nagpur</li>
+      <li>Banglore</li>
+    </ol>
+    <dl>
+      <dt>coffee</dt>
+      <dd>-Hot beverage</dd>
+    </dl>
+  </body>
+</html>
+<html>
+    <head>
+      <title>Hyperlinks</title>
+    </head>
+    <body>
+      <H2>Hyperlinks</h2>
+      <a href="https://www.google.co.uk/">visit the google</a>
+    </body>
+  </html>
