@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    
+        <style>
+            /* internal style */
+            h1{
+                color:blueviolet;
+                font-size: 40px;
+                #para{
+                    color:blueviolet;
+                }
+            }
+            .myclass{
+                background-color:floralwhite
+            }
+            *{
+                font-size: 40px;
+            }
+            </style>
+            </head>
+            <body>
+                <h1 class = "myclass">Cascading style sheets</h1>
+                <p style = "color:blue;">CSS is used to define styles for your
+
+                    web pages, including the design, layout and variations in display for different devices and screen sizes
+                    <p id = "para"class = "myclass">Codingal</p>
+              </body>
+                </html>
+                body{
+                    background-color:beige
+                }
+
+
+
+    
+        
