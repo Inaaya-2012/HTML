@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inttroduction to Javascript</title>
+    </head>
+    <body>
+        <h1 id = "myh">Variables</h1>
+        <p id = "myp"></p>
+        <script>
+            var a = 10
+            var b = 20
+            var result = a + b
+            document.getElementById("myp").innerHTML = a + "+"+ b + "=" + result
+            </script>
+    </body>
+</html>

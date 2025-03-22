@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Statement</title>
+    </head>
+    <body>
+        <div id = "mysection">
+        <h1 id = "myh">Statements</h1>   
+        <p id = "a"></p>
+        <p id = "b"></p>
+        <p id = "res"></p>
+        </div>
+
+        <script>
+            var a,b,result; //statement1
+            a = 10; //statement2
+            b = 20; //statement3
+            result = a + b - 10 * 20 //statement4
+            document.getElementById("a").innerHTML = "a = " + a
+            document.getElementById("b").innerHTML = "b = " + b
+            document.getElementById("res").innerHTML = " a + b - 10 * 20 = " + result
+
+        
+            </script>
+    </body>
+</html>

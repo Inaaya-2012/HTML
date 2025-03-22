@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inttroduction to Javascript</title>
+    </head>
+    <body>
+        <h1 id = "myh"></h1>
+        <p id = "myp"></p>
+        <script>
+            document.getElementById("myh").innerHTML = "Welcome to Javascript"
+            document.getElementById("myp").innerHTML = "My first Javascript project"
+            </script>
+    </body>
+</html>
