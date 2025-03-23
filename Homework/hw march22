@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Homework
+    </title>
+    <meta charset="utf-8">
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+</head>
+<body>
+    <div class = "container">
+        <div class = "card" style = "width:30rem">
+            <img class = "card-img-top" src = "https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg">
+            <div class = "card-body">
+                <h1 class "bg-info">User Name</h1>
+                <p>Passionate in doing code</p>
+                <div class = "card-footer">
+                    <a class = "btn btn-sm bg-info" href = "#">See Profile</a>
+                </div>
+            </div>
+        </div>
+        </body
+        </html
+        <head>
+            <title>
+                Pagination
+            </title>
+            <meta charset="utf-8">
+        
+        <meta name="viewport"
+        
+        content="width=device-width, initial-scale=1">
+        
+        
+        <link rel="stylesheet" href=
+        
+        "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+        
+        <script src=
+        
+        "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+        
+        </script>
+        </head>
+        <body>
+            <h1>Pagination</h1>
+            <div class = "container">
+                <ul class = "pagination">
+                    <li class = "page-item>">
+                        <a href = "#" class = "page-link">Previous</a>
+                        <li class = "page-item>">
+                            <a href = "#" class = "page-link">1</a>
+                            <li class = "page-item>">
+                                <a href = "#" class = "page-link">2</a>
+                                <li class = "page-item>">
+                                    <a href = "#" class = "page-link">3</a>
+                                    <li class = "page-item>">
+                                        <a href = "#" class = "page-link">next</a>
+                                        <head>
+                                            <title>
+                                                Spinner
+                                            </title>
+                                            <meta charset="utf-8">
+                                        
+                                        <meta name="viewport"
+                                        
+                                        content="width=device-width, initial-scale=1">
+                                        
+                                        
+                                        <link rel="stylesheet" href=
+                                        
+                                        "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+                                        
+                                        
+                                        <script src=
+                                        
+                                        "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+                                        
+                                        </script>
+                                        </head>
+                                        <body>
+                                            <h1>Spinner</h1>
+                                            <p>Spinner-border is used to create spinners using bootstrap</p>
+                                            <div class = "container">
+                                                <div class = "spinner-border text-warning"></div>
+                                                <div class = "spinner-grow" style = "color:magenta"></div>
+                                            </div>
+                                        
+                                            
