@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Bootstrap Conatainers
+    </title>
+    <meta charset="utf-8">
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+</head>
+<body>
+    <div class = "container bg-danger text- light">
+        <h1 class = "display-2 text-warning">Bootstrap Containers</h1>
+        <p> Container class is used for a fixed width</p>
+    </div>
+</body>
+</html>
+<head>
+    <title>
+        Fluid-containers
+    </title>
+    <meta charset="utf-8">
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+</head>
+<body>
+    <div class =  "container-fluid bg-info text-dark border border-primary">
+        <h1 class = "display-3 text-bg-primary">container-fluid</h1>
+        <p>container-fluid is for full width container</p>
+    </div>
+    <div class = "container bg-danger border border-dark text-warning">
+        <h1 class = "diplay-4">Bootstrap containers</h1>
+        <p class = "text-white">It is really fun to learn about bootstrap containers</p>
+    </div>        
+</body>
+</html>
