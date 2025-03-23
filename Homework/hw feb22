@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Homework
+        </title>
+        <style>
+            h1{
+                text-shadow: 9px 9px 5px pink;
+            
+            }
+            div{
+                width: 100px;
+                height: 100px;
+                border: 3px solid greenyellow;
+                box-shadow: 9px 9px 5px yellow;
+            }
+            p{
+                text-indent: 30%;
+            }
+            </style>
+            </head>
+            <h1>Inaaya</h1>
+            <div>Inaaya</div>
+            <p>Visual Studio Code is a code editor that redefines coding with AI. It offers GitHub Copilot, a feature that helps you write, edit, and chat with code suggestions based on your codebase</p>
+        </body>
+        
+        </html>
+        
+<html>
+    <head>
+        <title>
+            Shadow
+        </title>
+        <style>
+            h1{
+                text-shadow: 9px 9px 5px pink;
+            
+            }
+            div{
+                width: 100px;
+                height: 100px;
+                border: 3px solid greenyellow;
+                box-shadow: 9px 9px 5px yellow;
+            }
+            p{
+                text-indent: 30%;
+            }
+            </style>
+            </head>
+            <h1>Inaaya</h1>
+            <div>Inaaya</div>
+            <p>Visual Studio Code is a code editor that redefines coding with AI. It offers GitHub Copilot, a feature that helps you write, edit, and chat with code suggestions based on your codebase</p>
+        </body>
+        </html>
+        <html>
+    <head>
+        <title>
+            Typography
+        </title>
+        <style>
+            body{
+                background-color: antiquewhite;
+            }
+            h1{  
+                color:teal;
+                font-size: 40px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: bold;
+            
+            }
+            p{
+                color: olive;
+                font-size: 24px;
+                font-family:'Times New Roman', Times, serif
+
+            }
+        </style>
+        <body>
+            <h1>Computer</h>
+                <p>A computer is a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation). Modern digital electronic computers can perform generic sets of operations known as programs. These programs enable computers to perform a wide range of tasks. The term computer system may refer to a nominally complete computer that includes the hardware, operating system, software, and peripheral equipment needed and used for full operation; or to a group of computers that are linked and function together, such as a computer network or computer cluster.</p>
+            </h1>
+            </body>
+            <html>
+    <head>
+        <title>
+            Text Transform
+        </title>
+        <style>
+            div{
+                border: 3px solid greenyellow;
+                background-color: aquamarine;
+                width:300px;
+                height:300px;
+            
+            }
+            #mydiv{
+                transform: rotateX(180deg);
+            }
+            </style>
+            </head>
+            <body>
+                <div> I love Coding</div>
+                <div id= "mydiv">I love Coding</div>
