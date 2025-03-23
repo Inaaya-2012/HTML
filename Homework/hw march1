@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homework</title>
+        <style>
+            #div1{
+                width:250px;
+                height:200px;
+                border:3px dotted burlywood;
+                background-color: antiquewhite;
+                padding-left: 30px;
+                padding-right: 20px;
+                padding-top: 20px;
+                padding-bottom: 30px;
+                margin-left: 20px;
+                margin-top: 100px;
+            }
+            #div2
+            {
+                width:220px;
+                height: 150px;
+                border: 6px solid orangered;
+                padding: 20px 30px 40px 10px;
+                background-color: yellow;
+                margin: 100px;
+            }
+
+            
+           </style>
+           </head>
+           <body>
+            <div id = "div1">Coffee is the world's leading agricultural resource, in value terms. Coffee growing generates income and jobs in producing countries, and is primarily practised on small family farms. Coffee trees are shrubs of the genus Coffea, which includes almost 80 species. Two species, Coffea arabica and C.</div>
+            <div id = "div2">The guitar is a fretted musical instrument that typically has six strings. It is usually held flat against the player's body and played by strumming or plucking the strings with the dominant hand, while simultaneously pressing selected strings against frets with the fingers of the opposite hand.</div2>
+            </body>
+            </html>
+            <html>
+    <head>
+        <title>Float</title>
+        <style>
+            img#img1{
+                float:left;
+            }
+            img#img2{
+                float:right;
+            }
+            #para1{
+                border:1px solid red;
+                background-color: beige;
+                padding: 10px;
+                font-size: 22px;
+            }
+
+        </style>
+        </head>
+        <body>
+            <h1>float</h1>
+            <p>
+                <img id = "img1" src = "flower-removebg-preview.png" width = 100px, height = 100px>
+                <img id = "img2" src = "flower-removebg-preview.png" width = 100px, height = 100px>
+                <p id = "para1">The float property is to float the content on left or right</p>
+            </p>
+            </body>
+            </html>
+
+             
