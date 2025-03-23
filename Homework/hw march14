@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Bootstrap Typography
+    </title>
+    <meta charset="utf-8">
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+</head>
+<body>
+    <div class = "container">
+        <abbr title = "Automated Teller Machine">ATM</abbr>
+        <pre>
+            Even so my sun one early morn did shine,
+
+            With all triumphant splendour on my brow;
+
+            But out, alack, he was but one hour mine,
+
+            The region cloud hath mask’d him from me now …
+
+            ‘Full many a glorious morning have I seen’
+            -William Shakespeare
+        </pre>
+        <blockquote class = "blockquote">
+            <p>
+                "be yourself; everyone else is already taken"
+            </p>
+            <footer class = "blockquote-footer">Oscar Wilde</footer>
+        </blockquote>
+        <kbd> ctrl+P</kbd> is used to open the printed dialogue box
+            <br>
+            <input type = "color" id = "mychoice">
+
+         
+        
+        
+    </div>
+</body>
+</html>
+<head>
+    <title>
+        Typography
+    </title>
+    <meta charset="utf-8">
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+</head>
+<body>
+    <div class = "container">
+        <h1 class = "display-1">Bootstrap</h1>
+        <h1 class = "display-2">Bootstrap</h1>
+        <h1 class = "display-3">Bootstrap</h1>
+        <h1 class = "display-4">Bootstrap</h1>
+        
+        <h1 class = "display-4">Bootstrap is used to build <small>responsive websites</small><h1>
+            <dl>
+                <dt>Coffee </dt>
+                <dd>-hot beverage</dd>
+            </dl>
+        </div>
+</body>
+</html>
