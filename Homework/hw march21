@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Badges
+    </title>
+    <meta charset="utf-8">
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+</head>
+<body>
+    <div class = "container">
+        <div class = "badge badge-primary">Notification(4)</div>
+        <div class = "badge badge-secondary">Mail(12)</div>
+        <div class = "badge badge-success">Message(6)</div>
+        <div class = "badge badge-danger">Updates(18)</div>
+        <div class = "badge badge-info">News(12)</div>
+        <div class = "badge badge-warning">Downloads(1)</div>
+
+    </div>
+    <br>
+    <div class = "container">
+        <div class = "badge badge-pill badge-primary">Notification(4)</div>
+        <div class = "badge badge-pill badge-secondary">Mail(12)</div>
+        <div class = "badge badge-pill badge-success">Message(6)</div>
+        <div class = "badge badge-pill badge-danger">Updates(18)</div>
+        <div class = "badge badge-pill badge-info">News(12)</div>
+        <div class = "badge badge-pill  badge-warning">Downloads(1)</div>
+
+    </div>
+
+</body>
+<head>
+    <title>
+        Jumbotron
+    </title>
+    <meta charset="utf-8">
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+</head>
+<body>
+    <div class = "container">
+        <div class = "jumbotron">
+            <h1 class = "display-1 text-info">Jumbotron</h1>
+            <p>Jumbotron is used to give some special attention for the given class.</p>
+
+        </div>
+    </div>
+    <div class = "container">
+        <button class = "btn btn-primary">primary</button>
+        <button class = "btn btn-secondary">secondary</button>
+        <button class = "btn btn-danger">danger</button>
+        <button class = "btn btn-info">info</button>
+        <button class = "btn btn-warning">warning</button>
+        <button class = "btn btn-dark">dark</button>
+    </div>
+    <br>
+    <div class = "container">
+        <button class = "btn btn-lg btn-primary">primary</button>
+        <button class = "btn btn-lg btn-secondary">secondary</button>
+        <button class = "btn btn-lg btn-danger">danger</button>
+        <button class = "btn btn-lg btn-info">info</button>
+        <button class = "btn btn-lg btn-warning">warning</button>
+        <button class = "btn btn-lg btn-dark">dark</button>
+    </div>
+    <br>
+    <div class = "container">
+        <button class = "btn btn-sm btn-primary">primary</button>
+        <button class = "btn btn-sm btn-secondary">secondary</button>
+        <button class = "btn btn-sm btn-danger">danger</button>
+        <button class = "btn btn-sm btn-info">info</button>
+        <button class = "btn btn-sm btn-warning">warning</button>
+        <button class = "btn btn-sm btn-dark">dark</button>
+    </div>
+
+</body>
+<head>
+    <title>
+        Progress Bar
+    </title>
+    <meta charset="utf-8">
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+</head>
+<div class = "container">
+    <h1>Progress Bar</h1>
+    <p>The progress bar is used by using progress class</p>
+</div>
+<br>
