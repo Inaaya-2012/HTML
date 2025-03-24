@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Positioning</title>
+        <style>
+            #static{
+                position:static;
+                width: 200px;
+                height: 100px;
+                top:100px;
+                left:100px;
+                background-color: aqua;
+                border: 4px blue;
+            }
+            
+            #fixed{
+                position:fixed;
+                width: 200px;
+                height: 100px;
+                top:100px;
+                left:100px;
+                background-color: lightpink;
+                border: 4px hotpink;
+            }
+            #relative{
+                position:relative;
+                width: 200px;
+                height: 100px;
+                top:150px;
+                left:100px;
+                background-color: lightgreen;
+                border: 4px darkgreen;
+            }
+            #absolute{
+                position:absolute;
+                width: 100px;
+                height: 40px;
+                top:10px;
+                left:10px;
+                background-color: lightgoldenrodyellow;
+                border: 4px darkorange;
+            }
+            #sticky{
+                position:sticky;
+                width: 400px;
+                height: 40px;
+                top:10px;
+                left:10px;
+                background-color: violet;
+                border: 4px black;
+            }
+            </style>
+            </head>
+            <body>
+                <div id = "static">
+                    Static Positioning
+                </div>
+                <div id = "fixed">
+                    fixed Positioning
+                </div>
+                <div id = "relative">
+                    Relative Positioning
+                    <div id = "absolute">
+                        Absolute Positioning
+                    </div>
+                </div>
+                <div id = "sticky">
+                    Sticky Positioning
+                </div>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </body>
+            </html>

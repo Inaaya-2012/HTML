@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Opacity</title>
+        <style>
+            div{
+                width:300px;
+                height:100px;
+                background-color: blue;
+            }
+            div#one{
+                opacity:0.2;
+            }
+            div#two{
+                opacity:0.4;
+            }
+            div#three{
+                opacity:0.6;
+            }
+            div#four{
+                opacity:1;
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "one">Codingal</div>
+        <div id = "two">Codingal</div>
+        <div id = "three">Codingal</div>
+        <div id = "four">Codingal</div>
+    </body>
