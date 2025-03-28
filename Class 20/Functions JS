@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Javascript Function</title>
+    </head>
+    <body>
+        <h1>Click to multiply</h1>
+        <button onclick = "multiply(5)">Click me </button>
+        <div id = "result"></div>
+        <script>
+            function multiply(x,y){
+                if (y==undefined){
+                    y=3
+                }
+                document.getElementById("result").innerHTML = "the value is " +x*y
+            } 
+            </script>
+            </body>
+            </html>

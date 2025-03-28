@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Javascript Scope of variables</title>
+    </head>
+    <body>
+        <h1>Scope of variables</h1>
+        <button onclick = "myfunction(5)">Click me </button>
+        <div id = "result"></div>
+        <div id = "result1"></div>
+        <script>
+            var a = 10
+            function myfunction(){
+                var b = 2
+                var c = a + b
+                document.getElementById("result").innerHTML = "the value is " + c
+
+                }
+                
+             
+            </script>
+            </body>
+            </html>
