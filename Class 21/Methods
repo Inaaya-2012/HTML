@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Methods</title>
+    </head>
+    <body>
+        <h1>String Methods</h1>
+        <script>
+            var str1 = "Coding is AMAZING"
+
+            document.write("the Uppercase "+str1.toUpperCase() + "<br>")
+            document.write("IN small letters "+str1.toLowerCase() + "<br>")
+            document.write("starts with "+str1.startsWith("C") + "<br>")
+            str2 = "I am learning coding"
+            var exp = new RegExp("learn")
+            document.write("The string contains learn "+exp.test(str2) + "<br>")
+            </script>
+            </body>
+            </html>
+        
