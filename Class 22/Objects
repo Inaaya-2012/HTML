@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Objects</title>
+    </head>
+    <body>
+        <h1>Objects in HTML</h1>
+        <div id = 'result'></div>
+        <script>
+            var student ={
+                "name": "Inaaya",
+                "age": "13",
+                "grade": "VIII"
+            }
+            document.getElementById("result").innerHTML = "My name is "+ student.name + "<br>" + "My age is "+ student.age + "<br>" + "My grade is " + student.grade;
+            </script>
+            </body>
+            </html>
+        
