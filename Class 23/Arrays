@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arrays</title>
+    </head>
+    <body>
+        <h1> Arrays </h1>
+        <div id = "result"></div>
+        <script>
+            fruits = ["apple","mango","banana","kiwi","watermelon"]
+
+            document.getElementById("result").innerHTML = "The fruits list are : <br>" + fruits[0] + "<br>" + fruits[1] + "<br>" + fruits[2] + "<br>" + fruits[3] + "<br>" + fruits[4] 
+            </script>
+            </body>
+            </html>

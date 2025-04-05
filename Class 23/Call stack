@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <h1> Call stack </h1>
+            <div id = "result"></div>
+
+            <script>
+                function add (a,b)
+                 {
+                    return a+b
+                 }
+                 function average(a,b)
+                 { 
+                    return add (a,b)/2
+                 }
+                 var res = average(55,20)
+                 document.getElementById("result").innerHTML = "the averge is " +res
+                 </script>
+                 </body>
+                 </html>
