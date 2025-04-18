@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS as external file</title>
+    </head>
+    <body>
+        <h1>JS as external file</h1>
+        <button onclick = "sqr();">Click me</button>
+        <p id = "myid"></p>
+        <script src = "script.js"></script>
+
+        
+            </body>
+            </html>
