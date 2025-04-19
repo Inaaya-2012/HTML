@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DATA TYPES</title>
+    </head>
+    <body>
+        <h1>Data Types</h1>
+        <script>
+            var a = 10
+            var b = 12;
+            var c = 10
+            var d = null
+            var e;
+            document.write("The value of a and b are equal ",a==b, "<br>")
+            document.write("The value of c and a are equal ",c==a, "<br>")
+            document.write("The value of d ",d, "<br>")
+            document.write("The value of d ",e, "<br>")
+        </script>
+    </body>
+</html>

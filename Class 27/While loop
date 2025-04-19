@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>While loop</title>
+    </head>
+    <body>
+        <script>
+            var i =  1
+            while (i<=100)
+        {
+            document.write("The number is ",i + "<br>")
+            i+=1
+        }
+        </script>
+        
+    </body>
+</html>
