@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Classes</title>
+        <body>
+            <h1>Classes in JS</h1>
+            <script>
+                class student{
+                    constructor(name,yob){
+                        this.name = name;
+                        this.yob = yob
+                    }
+                    age()
+                    {
+                        let dt = new Date()
+                       var yr = dt.getFullYear()
+                        var age1 = yr - this.yob
+                        return age1
+                    }
+                }
+                student1 = new student ('Inaaya',2012)
+                document.write("My name is " + student1.name + "<br>")
+                document.write("My age is " + student1.age ())
+                </script>
+                </body>
+                </html>
+
+
+                

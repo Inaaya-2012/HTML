@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Static methods</title>
+    </head>
+    <body>
+        <h1>Static Methods</h1>
+        <script>
+            class wishes{
+                hi(){
+                    document.write("hi" + "<br>")
+                }
+                static hello()
+                {
+                    return "hello"
+                }
+           }
+           wish1 = new wishes()
+           wish.hi()
+           document.write(wishes.hello())
+           </script>
+           </body>
+           </html>
+        
