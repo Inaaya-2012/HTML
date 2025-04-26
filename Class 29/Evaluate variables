@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Evaluate variables</title>
+    </head>
+    <body>
+        <h1>Evaluate variables</h1>
+        <button onclick = "evaluate1()">Click to evaluate</button>
+            <p id = "result"></p>
+            <script>
+                function evaluate1(){
+                    var a = 35;
+                    var b = 57;
+                    var c = 200;
+                    document.write (eval("a+b-c"))
+                              }
+                              </script>
+                              </body>
+                              </html>

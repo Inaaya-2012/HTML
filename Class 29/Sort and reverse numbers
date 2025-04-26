@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sort and reverse numbers</title>
+    </head>
+    <body>
+        <h1>Sort and reverse numbers</h1>
+        <button onclick = "asc()">Ascending</button>
+        <button onclick = "desc()">Descending</button>
+        <p id = "result"></p>
+        <script>
+            var points =  [12,34,54,98,1,678,999] 
+            document.getElementById("result").innerHTML = points
+            function asc(){
+                points.sort(function(a,b){return a-b}) 
+                document.getElementById("result").innerHTML = points
+            }
+            function desc(){
+                points.sort(function(a,b){return b-a}) 
+                document.getElementById("result").innerHTML = points
+            }
+            
+            </script>
+            </body>
+            </html>
