@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Convert,search and replace string</title>
+    </head>
+    <body>
+        <h1>Convert,search and replace string</h1>
+        <div id = "res"></div>
+        <div id = "res1"></div>
+        <script>
+            var a = 10;
+            var b = 10;
+            var c = a + b;
+            document.write("a + b = "+ c + "<br>")
+            document.write("a + b = " + String(a) + String(b))
+            </script>
+            </body>
+</html>
