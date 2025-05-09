@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Validation using API</title>
+    </head>
+    <body>
+        <input type = "number" id = "id1" min = "100" max = "300">
+        <button onclick = "myfunction()">Click to validate</button>
+        <hr>
+        <p id = "message">Enter the number between 100 to 300</p>
+        <p id = "result"></p>
+        <script>
+            function myfunction(){
+                var inpobj = document.getElementById("id1")
+                if(!inpobj.checkValidity()){
+                    document.getElementById("result").innerHTML = inpobj.validationMessage;
+
+                }
+                else{
+                    document.getElementById("result").innerHTML = "input OK"
+                }
+            }
+            </script>
+            </body>
+            </html>
