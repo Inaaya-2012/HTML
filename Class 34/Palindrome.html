@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Palindrome.html</title>
+    </head>
+    <style>
+    body{
+        background-color:bisque;
+        text-align: center;
+    }
+    div{
+        width: 350px;
+        height: 200px;
+        border: 3px solid rgb(4, 78, 80);
+        background-color: rgb(134, 176, 162);
+        text-align: center;
+        font-size: 32px;
+        padding: 30px;
+        margin-left: 100px;
+        color: darkred;
+    }
+    h1::before{
+        content:"❤️";
+    }
+    h1::after{
+        content:"❤️";
+    }
+    </style>
+        <h1>Palindrome</h1>
+        <script>
+            function palindrome(mystring)
+            {
+                var input = mystring.replace(/[^a-z0-9]/ig,"").toLowerCase()
+                var reversedInput = input.split('').reverse().join("")
+                if (input == reversedInput){
+                    document.write("<div>" + mystring + " is a palindrome </div>")
+                }
+                else 
+                {
+                    document.write("<div>" + mystring + " is not a palindrome </div>")
+
+                }
+                
+                
+            }
+            palindrome("mom")
+        </script>
