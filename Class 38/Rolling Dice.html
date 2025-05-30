@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Rolling Dice</title>
+    
+    <style>
+        body{
+            text-align: center;
+            animation-name: ex;
+            animation-duration: 12s;
+            animation-delay: 2s;
+            animation-iteration-count: 100;
+        }
+        @keyframes ex{
+            0%{background-color: rgb(220,46,11);}
+            25%{background-color: rgb(231,219,112);}
+            50%{background-color:coral;}
+            75%{background-color: rgb(38, 170, 252);}
+            100%{background-color: rgb(233, 7, 143);}           
+        }
+        #dice{
+            display:inline-block;
+            font-size:320px;
+            color:turquoise;
+        }
+        #dice:hover{
+            cursor: pointer;
+        }
+        h1{
+            color:turquoise;
+            font-size: 40px;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Rolling Dice</h1>
+        <div id = "dice" onclick="startstop();"></div>
+        <script>
+            var diceimg = ['&#9856','&#9857','&#9858','&#9859','&#9860','&#9861'];
+            
+            var start = true;
+            var interval;
+            function change()
+            {
+                var dice = Math.floor(Math.random()*6)
+                document.getElementById("dice").innerHTML = diceimg[dice];
+            }
+
+            function startstop(){
+                if(start){
+                    start = false
+
+                    interval = setInterval(change,110)
+                }
+                else{
+                    start = true 
+                    clearInterval(interval)
+                }
+            }
+            window.onload = function(){
+                startstop();
+            }
+
+        </script>
+    </body>
+</html>
