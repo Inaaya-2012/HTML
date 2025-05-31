@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perimeter Calculator</title>
+</head>
+<body>
+    <script>
+        var ch = prompt("\n1. Rectangle \n2. Triangle \n3. Circle \n4. Parallelogram\nEnter your choice");
+        var l, b, h, a, r, res;
+
+        if (ch == "1") {
+            l = prompt("Enter the length of the rectangle");
+            b = prompt("Enter the breadth of the rectangle");
+            res = 2 * (Number(l) + Number(b));
+            alert("The perimeter of the rectangle is " + res);
+        }
+        else if (ch == "2") {
+            a = prompt("Enter the first side of the triangle");
+            b = prompt("Enter the second side of the triangle");
+            c = prompt("Enter the third side of the triangle");
+            res = Number(a) + Number(b) + Number(c);
+            alert("The perimeter of the triangle is " + res);
+        }
+        else if (ch == "3") {
+            r = prompt("Enter the radius of the circle");
+            res = 2 * 3.14 * Number(r);
+            alert("The perimeter (circumference) of the circle is " + res);
+        }
+        else if (ch == "4") {
+            a = prompt("Enter the base of the parallelogram");
+            b = prompt("Enter the side of the parallelogram");
+            res = 2 * (Number(a) + Number(b));
+            alert("The perimeter of the parallelogram is " + res);
+        }
+        else {
+            alert("Invalid choice");
+        }
+    </script>
+</body>
+</html>
