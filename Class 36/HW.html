@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digital Calendar</title>
+    <style>
+        body {
+            background-color: black;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        #calendar {
+            display: inline-block;
+            color: greenyellow;
+            background-color: darkgreen;
+            width: 400px;
+            height: 100px;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 30px;
+            border: 3px solid lightskyblue;
+            border-radius: 10px;
+        }
+        h3 {
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h3>Digital Calendar</h3>
+    <div id="calendar"></div>
+
+    <script>
+        function showDate() {
+            const now = new Date();
+
+            const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            const months = ['January', 'February', 'March', 'April', 'May', 'June', 
+                            'July', 'August', 'September', 'October', 'November', 'December'];
+
+            const dayName = days[now.getDay()];
+            const monthName = months[now.getMonth()];
+            const day = now.getDate();
+            const year = now.getFullYear();
+
+            const formattedDate = `${dayName}, ${monthName} ${day}, ${year}`;
+            document.getElementById("calendar").innerHTML = formattedDate;
+        }
+
+        // Show the date when the page loads
+        showDate();
+    </script>
+</body>
+</html>
