@@ -7,6 +7,8 @@
                 margin:0px;
                 font-family:'Times New Roman', Times, serif;
                 background-color:aliceblue
+                margin: 0;
+                
             }
             .navbar{
                 overflow:hidden;
@@ -28,6 +30,22 @@
                 color:blue;
                 font-weight: bold;
             }
+            .carousel-container{
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                height:300px
+            }
+            .myslides{
+                display:none;
+                max-height:100%;
+                max-width:100%;
+            }
+            h1{
+                text-align:center;
+                text-transform:capitalize;
+                color:crimson
+            }
 
         </style>
     </head>
@@ -38,5 +56,12 @@
             <a href = "contact.html">Contact us</a>
             <a href = "gallery.html">Gallery</a>
         </div>
+        <h1>My favourite places</h1>
+        <div class = "carousel-container">
+            <img class = "myslide" src = "russia pic.png" width = 300 alt = "slider">
+            <img class = "myslide" src = "london pic.jpg" width = 300 alt = "slider">
+            <img class = "myslide" src = "germany pic.jpg" width = 300 alt = "slider">
+        </div>
+        <script src = "slider1.js"></script>
     </body>
 </html>
