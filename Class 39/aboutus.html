@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+        <style>
+           body,html{
+            height:100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+           }
+            .navbar{
+                overflow:hidden;
+                background-color:lawngreen;
+            }
+            .navbar a{
+                float: right;
+                color:forestgreen;
+                text-align:center;
+                padding:14px 16px;
+                text-decoration: none;
+                font-size:17px;
+            }
+            .navbar a:hover{
+                color:black;
+                font-size: 19px;
+            }
+            .navbar a.active{
+                color:blue;
+                font-weight: bold;
+            }
+            .bg-image{
+                height: 50%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .img1{background-image: url("image1.png");}
+            .img2{background-image: url("image2.png");}
+            .img3{background-image: url("image3.png");}
+            .img4{background-image: url("image4.jpg");}
+            .img5{background-image: url("image5.png");}
+            .img6{background-image: url("image6.jpg");}
+
+            .bg-text{
+                background-color:rgba(248, 212, 8,0.4);
+                color:red;
+                font-weight: bold;
+                font-size: 80px;
+                border: 10px solid black;
+                border-radius: 20px;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                width: 400px;
+                padding: 20px;
+                text-align: center;
+            }
+           
+            
+
+        </style>
+    </head>
+    <body>
+        <div class = "navbar">
+            <a  href = "Index.html">Home</a>
+            <a class = "active" href = "aboutus.html">About</a>
+            <a href = "contact.html">Contact us</a>
+            <a href = "gallery.html">Gallery</a>
+        </div>
+
+        <div class = "bg-image img1"></div>
+        <div class = "bg-image img2"></div>
+        <div class = "bg-image img3"></div>
+        <div class = "bg-image img4"></div>
+        <div class = "bg-image img5"></div>
+        <div class = "bg-image img6"></div>
+
+        <div class = "bg-text">Countries</div>
+        
+    </body>
+</html>
