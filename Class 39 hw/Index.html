@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+        <style>
+            body{
+                margin:0px;
+                font-family:'Times New Roman', Times, serif;
+                background-color:aliceblue
+                margin: 0;
+                
+            }
+            .navbar{
+                overflow:hidden;
+                background-color:lawngreen;
+            }
+            .navbar a{
+                float: right;
+                color:forestgreen;
+                text-align:center;
+                padding:14px 16px;
+                text-decoration: none;
+                font-size:17px;
+            }
+            .navbar a:hover{
+                color:black;
+                font-size: 19px;
+            }
+            .navbar a.active{
+                color:blue;
+                font-weight: bold;
+            }
+            .carousel-container{
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                height:300px
+            }
+            .myslides{
+                display:none;
+                max-height:100%;
+                max-width:100%;
+            }
+            h1{
+                text-align:center;
+                text-transform:capitalize;
+                color:crimson
+            }
+            .footer{
+                position:fixed;
+                left: 0px;
+                bottom:0px;
+                text-align: center;
+                background-color:forestgreen;
+                color:aquamarine;
+                width:100%
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class = "navbar">
+            <a class = "active" href = "Index.html">Home</a>
+            <a href = "aboutus.html">About</a>
+            <a href = "contact.html">Contact us</a>
+            <a href = "gallery.html">Gallery</a>
+        </div>
+        <h1>My favourite places</h1>
+        <div class = "carousel-container">
+            <img class = "myslide" src = "russia pic.png" width = 300 alt = "slider">
+            <img class = "myslide" src = "london pic.jpg" width = 300 alt = "slider">
+            <img class = "myslide" src = "germany pic.jpg" width = 300 alt = "slider">
+        </div>
+        <div class = "footer">
+            All rights reserver to Inaaya Bhardwaj<br>
+            contact : inaayabhardwaj@dldavppcbsei.com
+        </div>
+        <script src = "slider1.js"></script>
+    </body>
+</html>

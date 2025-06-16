@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+        <style>
+           body,html{
+            height:100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+           }
+            .navbar{
+                overflow:hidden;
+                background-color:lawngreen;
+            }
+            .navbar a{
+                float: right;
+                color:forestgreen;
+                text-align:center;
+                padding:14px 16px;
+                text-decoration: none;
+                font-size:17px;
+            }
+            .navbar a:hover{
+                color:black;
+                font-size: 19px;
+            }
+            .navbar a.active{
+                color:blue;
+                font-weight: bold;
+            }
+            h1::before{
+                content:"❤️";
+            }
+            h1::after{
+                content:"❤️";
+            }
+            #contactme{
+                position:fixed;
+                left:50%;
+                top:30%;
+                background-color: aliceblue;
+                width:400px;
+                height:200px;
+                padding:50px;
+                text-align:center;
+                border:5px solid blueviolet;
+                border-radius:20px;
+            }
+            
+        
+            
+            
+           
+            
+
+        </style>
+    </head>
+    <body>
+        <div class = "navbar">
+            <a  href = "Index.html">Home</a>
+            <a  href = "aboutus.html">About</a>
+            <a class = "active" href = "contact.html">Contact us</a>
+            <a href = "gallery.html">Gallery</a>
+        </div>
+        <div id = "contactme">
+            <h1>Contact Form</h1>
+            <form name = "contactform">
+                <label for = "fname">
+                    Firstname
+                </label>
+                <input type = text><br><br>
+                <label for = "queries">
+                    Queries
+                </label>
+                <textarea></textarea><br><br>
+                <input type = "submit">
+            </form>
+        </div>
+
+       
+        
+    </body>
+</html>
