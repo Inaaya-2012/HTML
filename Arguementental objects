@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Arguements objects</title>
+    </head>
+    <body>
+        <h1>Arguement objects</h1>
+        <div id = 'result'></div>
+        <script>
+        
+            function max(){
+                m = 0 
+                for(var i=0;i<arguments.length;i++)
+            {
+                if (m < arguments [i]){
+                    m = arguments[i]
+                }
+            }
+            return m
+            }
+            document.getElementById("result").innerHTML = "The max value is "+ max(34,56,781,1,21,45)
+            </script>
+            </body>
+            </html>
