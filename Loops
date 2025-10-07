@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Loops</title>
+    </head>
+    <body>
+        <h1>Loops</h1>
+        <script>
+            var fruit = ['apple','orange','mango','banana']
+            for (var i = 0;i<fruit.length ; i++)
+        {
+            document.write(fruit[i] + " ")
+        }
+        </script>
+        </body>
+</html>
