@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Javascript function expression</title>
+    </head>
+    <body>
+        <h1>Function expression</h1>
+        
+        <script>
+            var s = function expfun(a,b){
+                return a+b
+            }
+            document.write(s(44,55))
+            </script>
+
+
+            
+                
+                
+             
+        
+            </body>
+            </html>
