@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Callback</title>
+    </head>
+    <body>
+        <script>
+            function display(value){
+                document.write(value)
+            }
+            function add(a,b,mydisplay)
+            {
+                var c = a + b
+                mydisplay(c)
+            }
+            add(23,45,display)
+            </script>
+            </body>
+            </html>
