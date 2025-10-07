@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Real time form validation</title>
+    </head>
+    <style>
+        body{ 
+            text-align:center;
+        }
+        </style>
+        <body>
+            <h1>LOGIN FORM</h1>
+            <hr>
+            <fieldset>
+                <form name = "myform" onsubmit = "validate(event)">
+                <legend>Login Details</legend>
+                <label>Email</label>
+                <input type = "email" name = "email" id = "email">
+                <br>
+                <br>
+                <label>Password</label>
+                <input type = "password" name = "password" id = "password">
+                <br>
+                <br>
+                <label>Age</label>
+                <input type = "number" name = "age" id = "age">
+                <br>
+                <br>
+                <button type = "submit">Submit</button>
+            </form>
+        </fieldset>
+        <div id = "message"></div>
+
+        <script>
+            function validate (e){
+                e.preventDefault()
+                var email1 = document.getElementById("email").value;
+                var pass1 = document.getElementById("password").value;
+                var age1 = document.getElementById("age").value;
+                var message1 = document.getElementById("message")
+                 alert(email1)
+                let msg = ''
+                if (email1 === ''){
+                    msg = "Email should be filled"
+                    message1.style.color = 'red'
+                }
+                else if (pass1 === ''){
+                    msg = "Passwod should be filled"
+                    message1.style.color = 'red'
+                }
+                else if (age1 === ''){
+                    msg = "Age should be filled"
+                    message1.style.color = 'red'
+                }
+                else {
+                    msg = "Login succesfully"
+                    message1.style.color = 'green'
+                    
+                }
+                message1.innerText = msg            }
+            </script>
+            </body>
+            </html>
+
+
+   
