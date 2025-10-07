@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Error handling in JS</title>
+    </head>
+    <body>
+        <h1>Error handling in JS</h1>
+        <div id = "res"></div>
+        <div class = "disp">
+        <script>
+            try{
+                function addalert(){
+                    return x + y
+                }
+                addalert (x,y)
+            }
+            catch(ex){
+                document.getElementById("res").innerHTML = "An error occured" + ex
+            }
+            </script>
+            </div>
+                
+            </body>
+            </html>
